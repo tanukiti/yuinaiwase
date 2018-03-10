@@ -1,0 +1,151 @@
+html,
+body {
+  width: 100%;
+  color: #4a4a4a;
+  font-family: 'YuGothic';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+/*---------header----------*/
+header {
+  background: #fff;
+  overflow: hidden;
+  padding: 20px 0 10px;
+}
+
+header .h_content {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header .h_content .h_top {
+  padding-bottom: 15px;
+  float: right;
+}
+
+header .h_content .h_top p {
+  width: 120px;
+  text-align: center;
+  line-height: 30px;
+  background: #67a1c6;
+  border-radius: 3px;
+}
+
+header .h_content .h_top p a {
+  color: #fff;
+}
+
+header .h_content .h_bottom {
+  clear: right;
+}
+
+header .h_content .h_bottom h1 {
+  width: 150px;
+  float: left;
+}
+
+header .h_content .h_bottom ul {
+  text-align: right;
+  overflow: hidden;
+}
+
+header .h_content .h_bottom ul li {
+  width: 150px;
+  display: inline-block;
+  margin: 10px 0px;
+  border-right: 1px solid #c7c7c7;
+  text-align: center;
+}
+
+header .h_content .h_bottom ul li:first-child {
+  border-left: 1px solid #c7c7c7;
+}
+
+header .h_content .h_bottom ul li a {
+  display: block;
+}
+
+/*---------main----------*/
+
+
+/*---------footer----------*/
+footer {
+  background: #67a1c6;
+  overflow: hidden;
+  padding: 50px 0 20px;
+  position: relative;
+}
+
+footer .pagetop {
+  position: absolute;
+  top: 10px;
+  right: 115px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #67a1c6;
+  border: 3px solid #fff;
+}
+
+footer .pagetop p {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer .pagetop p a {
+  display: block;
+}
+
+footer p a {
+  color: #fff;
+}
+
+footer .f_content {
+  width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+footer .f_content p {
+  padding-bottom: 15px;
+}
+
+footer .f_content p a:hover {
+  text-decoration: underline;
+}
+
+footer .f_content .logo {
+  float: left;
+}
+
+footer .f_content .f_01 {
+  width: 78px;
+  float: left;
+  padding: 0 50px 0 80px;
+  overflow: hidden;
+}
+
+footer .f_content .f_02 {
+  width: 143px;
+  float: left;
+  padding-right: 50px;
+}
+
+footer .copy {
+  text-align: center;
+  color: #fff;
+}
+
+/*# sourceMappingURL=design.css.map */
