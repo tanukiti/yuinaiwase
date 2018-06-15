@@ -440,6 +440,10 @@ nav {
   margin-bottom: 30px;
 }
 
+.name {
+  padding: 0px;
+}
+
 .submit {
   width: 238px;
   height: 24px;
